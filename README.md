@@ -259,6 +259,3 @@ Open Retail_Project.pbix in Power BI Desktop
 Aspiring Data Analyst | Excel · SQL · Power BI · Python
 
 ---
-
-*This project was built as a portfolio project to demonstrate
-data analysis skills for a fresher data analyst role.*
