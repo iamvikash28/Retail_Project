@@ -62,12 +62,12 @@ The dataset covers **7 product categories**, **5 geographic regions** across Ind
 
 | Tool | Version | Purpose | Output |
 |------|---------|---------|--------|
-| **Python 3** | 3.8+ | Dataset generation & Excel creation | `retail_sales_data.csv`, `.xlsx` |
+| **Python 3** | 3.8+ | Dataset generation & Excel creation | `retail_sales.csv`, `.xlsx` |
 | **Pandas / NumPy** | Latest | Data manipulation, seeded generation | Structured 5,000-row dataset |
 | **OpenPyXL** | Latest | Multi-sheet Excel workbook with charts | `Retail_Store_Analysis.xlsx` |
 | **SQLite** | 3.x | Relational query engine | `retail.db` database |
 | **DB Browser for SQLite** | Latest | GUI for running SQL queries visually | Interactive SQL results |
-| **Power BI Desktop** | Latest | Interactive dashboard with DAX | `Retail_Dashboard.pbix` |
+| **Power BI Desktop** | Latest | Interactive dashboard with DAX | `Retail_Project.pbix` |
 | **Power BI Service** | Cloud | Web publishing & sharing | Shareable dashboard URL |
 
 ---
@@ -77,13 +77,13 @@ The dataset covers **7 product categories**, **5 geographic regions** across Ind
 ```
 retail-store-analysis/
 ├── data/
-│   └── retail_sales_data.csv          # 5,000-row generated dataset
+│   └── retail_sales.csv          # 5,000-row generated dataset
 ├── sql/
 │   └── retail_analysis.sql            # 30+ SQL queries across 6 sections
 ├── excel/
 │   └── Retail_Store_Analysis.xlsx     # 6-sheet Excel workbook with charts
 ├── powerbi/
-│   └── Retail_Dashboard.pbix          # Power BI report (open in Desktop)
+│   └── Retail_Project.pbix          # Power BI report (open in Desktop)
 ├── scripts/
 │   ├── generate_data.py               # Reproducible dataset generator (seed=42)
 │   └── build_excel.py                 # Excel workbook builder
@@ -96,7 +96,7 @@ retail-store-analysis/
 
 ## 📊 Dataset Schema
 
-The generated dataset (`retail_sales_data.csv`) contains **5,000 rows** and **18 columns**. All data is synthetically generated using a fixed random seed (`42`) for full reproducibility.
+The generated dataset (`retail_sales.csv`) contains **5,000 rows** and **18 columns**. All data is synthetically generated using a fixed random seed (`42`) for full reproducibility.
 
 | Column | Type | Description | Example |
 |--------|------|-------------|---------|
@@ -203,7 +203,7 @@ python scripts/generate_data.py
 
 ### 4. Run SQL analysis (DB Browser for SQLite)
 1. Open DB Browser → **New Database** → save as `retail.db`
-2. **File → Import → Table from CSV** → select `retail_sales_data.csv`
+2. **File → Import → Table from CSV** → select `retail_sales.csv`
 3. **Execute SQL** tab → paste queries from `retail_analysis.sql` → press **F5**
 
 ### 5. Open the Excel workbook
