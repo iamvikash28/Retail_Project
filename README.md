@@ -5,18 +5,9 @@
 
 ---
 
-## 📋 Table of Contents
+## 📸 Preview
 
-- Project Description
-- Key Analysis Areas
-- Technology Stack
-- Repository Structure
-- Dataset Schema
-- SQL Analysis Reference
-- Excel Workbook
-- Power BI Dashboard
-- Quick Setup
-- Project Highlights
+<img width="1521" height="883" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/81ec4717-4b5e-4001-a259-431a45ac633c" />
 
 ---
 
@@ -256,6 +247,6 @@ Open Retail_Project.pbix in Power BI Desktop
 ## 👤 Author
 
 **Vikash Verma**
-Aspiring Data Analyst | Excel · SQL · Power BI · Python
+Aspiring Data Analyst | Excel · SQL · Power BI · Python | E-mail- vikashverma566@gmail.com
 
 ---
